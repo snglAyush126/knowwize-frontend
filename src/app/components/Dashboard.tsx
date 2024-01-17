@@ -67,7 +67,7 @@ const Dashboard = () => {
         indx++;
       }
       const response = await fetch(
-        `http://127.0.0.1:8000/usage/${currMonthInt}/${2024}?userToken=${userToken}`
+        `https://34p7pw-8000.csb.app/usage/${currMonthInt}/${2024}?userToken=${userToken}`
       );
       const apiUsage = await response.json();
       // console.log(apiUsage);
